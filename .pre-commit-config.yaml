@@ -4,8 +4,6 @@ repos:
   hooks:
   - id: check-yaml
   - id: end-of-file-fixer
-    # These files are generated.
-    exclude: "axlearn/experiments/testdata/.*"
   - id: trailing-whitespace
 - repo: local
   hooks:
